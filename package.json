@@ -1,0 +1,31 @@
+{
+  "name": "bqb",
+  "version": "1.0.0",
+  "description": "Promises/A+ implementation",
+  "main": "lib/promise.js",
+  "scripts": {
+    "test": "node tests/aplus.js && mocha tests/ecma.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bodylifter/bqb"
+  },
+  "keywords": [
+    "bqb",
+    "promise",
+    "promises",
+    "promise/A+"
+  ],
+  "author": "Pinaev Valeriy <hazard.npr@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "promises-aplus-tests": "~2",
+    "mocha": "~1.21.4",
+    "sinon": "^1.10.3",
+    "chai": "3.5.0"
+  },
+  "contributors": [{
+    "name": "Pinaev Valeriy",
+    "email": "hazard.npr@gmail.com"
+  }]
+}
